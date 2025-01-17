@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'argazki-bilduma',
+    loadChildren: () => import('./argazki-bilduma/argazki-bilduma.module').then( m => m.ArgazkiBildumaPageModule)
+  },
 ];
 
 @NgModule({
