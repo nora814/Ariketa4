@@ -10,4 +10,11 @@ export class HomePage {
 
   constructor() {}
 
+  argazkiBilduma(){
+
+  }
+
+  zenbakienJolasa(){
+
+  }
 }
