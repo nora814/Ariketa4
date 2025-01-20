@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'argazki-bilduma',
     loadChildren: () => import('./argazki-bilduma/argazki-bilduma.module').then( m => m.ArgazkiBildumaPageModule)
   },
+  {
+    path: 'zenbakien-jolasa',
+    loadChildren: () => import('./zenbakien-jolasa/zenbakien-jolasa.module').then( m => m.ZenbakienJolasaPageModule)
+  },
 ];
 
 @NgModule({
